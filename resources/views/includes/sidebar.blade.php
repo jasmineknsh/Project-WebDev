@@ -63,6 +63,13 @@
                         <span>Materi</span>
                     </a>
                 </li>
+
+                <li class="sidebar-item {{ request()->is('materi') ? 'active' : '' }}">
+                    <a href="{{route('materi')}}" class='sidebar-link'>
+                        <i class="bi bi-file-earmark-medical-fill"></i>
+                        <span>Log Out</span>
+                    </a>
+                </li>
         </div>
     </div>
 </div>
